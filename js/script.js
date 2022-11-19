@@ -1,21 +1,21 @@
 'use strict';
+// let num = 50;
 
-const numberOfNumbers = prompt('how many movies do u watched', '');
+// for (let i = 1; i < 10; i++) {
+//       console.log(i);
+//       for (let c = 1; c < 10; c++) {
+//             console.log(c);
+//       }
+// }
 
-const personaMoviesDB = {
-      count: numberOfNumbers,
-      movies: {},
-      actors: {},
-      genres: [],
-      privat: false
-};
-
-const lastMovieNameA = prompt('what`s your last movie?', ''),
-      lastMovieRatingA = +prompt('how would you rate your last movie', ''),
-      lastMovieNameB = prompt('what`s your last movie?', ''),
-      lastMovieRatingB = +prompt('how would you rate your last movie', '');
-
-personaMoviesDB.movies[lastMovieNameA] = lastMovieRatingA;
-personaMoviesDB.movies[lastMovieNameB] = lastMovieRatingB;
-
-console.log(personaMoviesDB);
+let result = '',
+      leng = 10,
+      x = 0; 
+while (x < leng) {
+      for (let i= 0; i < x; ) {
+            result += '*';
+      
+      }
+      result += '\n';
+      x++
+}
