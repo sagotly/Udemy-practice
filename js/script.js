@@ -13,7 +13,7 @@ const personaMoviesDB = {
 for (let i = 0; i < 2; i++){
     let x = prompt('what is one of your last films?' , '');
     let y = +prompt('how would you rate it?' , '');
-    if (x == null || y == 0 || x.length == 0 || y == null || x.length > 50) {
+    if (x == null || y == '' || x.length == 0 || y == null || x.length > 50) {
         i--;
     } else{
     personaMoviesDB.movies[x] = y;
